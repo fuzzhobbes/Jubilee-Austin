@@ -1,0 +1,343 @@
+/***** BASE STYLES *****/
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #02041f;
+}
+
+/***** GRID *****/
+body
+.full-width {
+    background: rgb(158, 196, 211);
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float:left;
+    width: 600px;
+
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/******HEADER******/
+body
+.full-width {
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background: url(https://bookwomanchicago.files.wordpress.com/2017/02/hero.png);
+    background-size: cover;
+
+}
+header h1 {
+    color: seagreen;
+    font-family: Lora;
+    padding: 65px 0 65px 25px;
+}
+nav {
+    float: right;
+    padding: 75px;
+}
+nav ul li {
+    display: inline-block
+}
+nav ul li a {
+    color: steelblue;
+    font-size: 15px;
+    padding-left: 80px;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+header h2 {
+    clear:none;
+    color:steelblue;
+    font-family: Lora;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 20px 0 20px 25px;
+    width: 600px;
+}
+header h2 span{
+    color:white;
+}
+
+
+
+
+/*****ABOUT*****/
+body 
+#about .full-width {
+    background:rgb(160, 238, 238);
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora' , serif;
+    font-size: 27px;
+    padding-left:50px;
+}
+#about p {
+    color:rgb(5, 6, 53);
+    font-size: 27px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#about p {
+    color:rgb(5, 4, 53);
+    font-size: 27px;
+    padding-left: px;
+    padding-right: 0 px;
+}
+
+#work .full-width {
+    padding: 115px 0;
+    background:rgb(222, 243, 243);
+}
+#work img{
+        height: 105px;
+        padding-bottom: 30px;
+        padding-left: 110px;
+        width: 100px;
+}
+#work h3{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 600px;
+}
+
+#work p{
+    font-size: 17px;
+    font-family: 'Lora', serif;
+    line-height: 40px;
+    padding: 0 50px;
+}
+#contact .full-width {
+    background:rgb(202, 202, 224);
+    padding: 100px 0;
+
+}
+#contact img#contact-img {
+    border: 12px solid #79c4f0;
+    height: 300px;
+    margin-left: 25px;
+    width: 300px;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 215px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+#contact img#envelope {
+    height: 60px;
+    padding-bottom: 0px;
+    padding-left: 215px;
+    width: 60px;
+}
+#contact #email-header {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: -30px 0 5px 0;
+    padding-left: 215px;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 40px;
+    margin: 140px 0 0 0;
+    padding-left: 215px;
+}
+#contact img#socialmedia-icon {
+    height: 100px;
+    padding-left: 215px;
+    width: 100px;
+}
+#contact #interweb-header{
+    padding-left: 215px;
+}
+#contact a{
+    color:cadetblue;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration:#6e6ceb;
+}/***** BASE STYLES *****/
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #02041f;
+}
+
+/***** GRID *****/
+body.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    background: rgb(158, 196, 211);
+}
+
+.half-width {
+    width: 600px;
+    float:left
+}
+
+.third-width {
+    width: 400px;
+    float: left
+}
+
+/******HEADER******/
+body.full-width {
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    padding: 75px 0 65px 25px;
+    font-family: Lora;
+    color: rgb(36, 119, 72);
+}
+nav {
+    float: right;
+    padding: 75px;
+}
+nav ul li {
+    display: inline-block
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: 15px;
+    color: rgb(1, 5, 8);
+    padding-left: 80px;
+}
+header h2 {
+    width: 600px;
+    clear: both;
+    font-family: Lora;
+    font-size: 30px;
+    line-height: 30px;
+    color:rgb(80, 151, 209);
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color:rgb(121, 154, 204);
+}
+
+
+
+
+/*****ABOUT*****/
+body 
+#about .full-width {
+    padding: 80px 0;
+    background:rgb(160, 238, 238)
+}
+#about h2 {
+    font-family: 'Lora' , serif;
+    font-size: 27px;
+    padding-left:50px;
+}
+#about p {
+    font-size: 27px;
+    color:rgb(5, 6, 53);
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#about p {
+    font-size: 27px;
+    color:rgb(5, 4, 53);
+    padding-left: px;
+    padding-right: 0 px;
+}
+
+#work .full-width {
+    padding: 115px 0;
+    background:rgb(222, 243, 243)
+}
+#work img{
+        width: 100px;
+        height: 105px;
+        padding-bottom: 30px;
+        padding-left: 110px;
+}
+#work h3{
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    line-height: 40px;
+    width: 600px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+
+#work p{
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    line-height: 40px;
+    padding: 0 50px;
+}
+#contact .full-width {
+    padding: 100px 0;
+    background:rgb(202, 202, 224)
+}
+#contact img#contact-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    border: 12px solid #79c4f0;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 215px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    line-height: 40px;
+}
+#contact img#envelope {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 0px;
+    padding-left: 215px;
+}
+#contact #email-header {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: -30px 0 5px 0;
+    padding-left: 215px;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 40px;
+    margin: 140px 0 0 0;
+    padding-left: 215px;
+}
+#contact img#socialmedia-icon {
+    width: 100px;
+    height: 100px;
+    padding-left: 215px;
+}
+#contact #interweb-header{
+    padding-left: 215px;
+}
+#contact a{
+    text-decoration:#6e6ceb;
+    color:cadetblue;
+    font-weight: bold;
+    font-size: 17px;
+}
